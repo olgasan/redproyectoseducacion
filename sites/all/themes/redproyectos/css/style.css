@@ -1,0 +1,32 @@
+.red {background: red;}
+.blue {background: blue;}
+.yellow {background: yellow;}
+.cyan {background: cyan;}
+.pink {background: pink;}
+.black {background: black;}
+
+/* header ----------- */
+.custom-header {
+  margin-top: -50px;
+}
+.logo-top {
+  width: 100%;
+  overflow: hidden;
+}
+.logo-bottom {
+  width: 50%;
+  text-align: center;
+  border: #ccc solid 1px;
+}
+.logo-bottom-left {
+  float: left;
+}
+.logo-bottom-right {
+  float: right;
+}
+.unal-fake-header{
+  width: 100%;
+  height: 95px;
+  background: grey;
+  display: block;
+}

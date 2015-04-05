@@ -74,11 +74,28 @@
  */
 ?>
 
-<?php if ($logo): ?>
-<a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-  <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-</a>
-<?php endif; ?>
+<div>
+  <div class="unal-fake-header"></div>
+  <div class="row">
+    <div class="col-md-2 col-md-offset-5 custom-header">
+      <div class="logo-top">
+        <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        </a>
+      </div>
+      <div class="clear-block no-float"></div>
+      <div class="logo-bottom logo-bottom-left">
+        <a href="<?php print $base_path; ?>/projects">Proyectos</a>
+      </div>
+      <div class="logo-bottom logo-bottom-right">
+        <a href="#">Foros</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
 <div class="main-container container">
 
@@ -119,7 +136,10 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
+      <?php //var_dump ($page['content']); ?>
       <?php print render($page['content']); ?>
+
+
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
@@ -131,6 +151,7 @@
   </div>
 </div>
 
+<?php if (false): ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container">
     <div class="navbar-header">
@@ -164,7 +185,9 @@
     <?php endif; ?>
   </div>
 </header>
+<?php endif; ?>
 
 <footer class="footer container">
   <?php print render($page['footer']); ?>
 </footer>
+
