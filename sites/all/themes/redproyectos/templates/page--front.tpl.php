@@ -95,8 +95,6 @@
   </div>
 </div>
 
-
-
 <div class="main-container container">
 
   <header role="banner" id="page-header">
