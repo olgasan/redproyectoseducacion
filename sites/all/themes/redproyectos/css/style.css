@@ -30,3 +30,23 @@
   background: grey;
   display: block;
 }
+
+/* project ----------- */
+.project-full {}
+.project-teaser {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: #ccc solid 1px;
+}
+.project-teaser .image {
+  float: left;
+  width: 30%;
+  overflow: hidden;
+}
+.project-teaser .content {
+  width: 70%;
+  display: inline-block;
+}
+.project-teaser .content h2, .project-teaser .content .field-name-body {
+  padding-left: 5%;
+}
