@@ -85,10 +85,10 @@
       </div>
       <div class="clear-block no-float"></div>
       <div class="logo-bottom logo-bottom-left">
-        <a href="<?php print $base_path; ?>/projects">Proyectos</a>
+        <a href="<?php print $base_path; ?>projects">Proyectos</a>
       </div>
       <div class="logo-bottom logo-bottom-right">
-        <a href="#">Foros</a>
+        <a href="<?php print $base_path; ?>forum">Foros</a>
       </div>
 
     </div>
